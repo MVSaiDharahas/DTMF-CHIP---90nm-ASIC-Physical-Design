@@ -9,7 +9,6 @@
 ![Variation](https://img.shields.io/badge/Variation-OCV-purple)
 ![Scripting](https://img.shields.io/badge/Scripting-Tcl-yellow)
 
-```
 
 ------------------------------------------------------------------------
 
