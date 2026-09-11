@@ -1,24 +1,14 @@
 # DTMF_CHIP --- 90nm ASIC Physical Design
 
-```{=html}
-<p align="center">
-```
-`<b>`{=html}Hierarchical Full-Chip ASIC Physical Design using Cadence
-Innovus`</b>`{=html}`<br>`{=html} 90nm CMOS \| MMMC/OCV \| CTS \| Global
-& Detailed Routing \| STA \| Power \| Congestion \| Parasitic Analysis
-```{=html}
-</p>
-```
-```{=html}
-<p align="center">
-```
-`<img src="https://img.shields.io/badge/Technology-90nm-blue" alt="Technology">`{=html}
-`<img src="https://img.shields.io/badge/Tool-Cadence%20Innovus-orange" alt="Cadence Innovus">`{=html}
-`<img src="https://img.shields.io/badge/Flow-RTL%20to%20GDS%20Physical%20Design-green" alt="Physical Design Flow">`{=html}
-`<img src="https://img.shields.io/badge/Timing-Setup%20%2B0.002ns-success" alt="Setup Timing">`{=html}
-`<img src="https://img.shields.io/badge/Hold%20%2B0.002ns-success" alt="Hold Timing">`{=html}
-```{=html}
-</p>
+> **Hierarchical 90nm ASIC Physical Design implementation using Cadence Innovus — covering design initialization, MMMC constraints, floorplanning, power planning, placement, CTS, routing, timing, power, congestion, parasitic and physical-design analysis.**
+
+![Technology](https://img.shields.io/badge/Technology-90nm-blue)
+![EDA Tool](https://img.shields.io/badge/EDA-Cadence%20Innovus-red)
+![Flow](https://img.shields.io/badge/Flow-ASIC%20Physical%20Design-green)
+![Timing](https://img.shields.io/badge/Timing-MMMC-orange)
+![Variation](https://img.shields.io/badge/Variation-OCV-purple)
+![Scripting](https://img.shields.io/badge/Scripting-Tcl-yellow)
+
 ```
 
 ------------------------------------------------------------------------
