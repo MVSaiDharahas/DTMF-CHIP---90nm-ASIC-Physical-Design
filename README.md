@@ -1788,7 +1788,49 @@ This reflects the physical area contribution of the pad-ring structures
 and should not be interpreted as equivalent to standard-cell logic area.
 
 ------------------------------------------------------------------------
+## 📊 Reports & Analysis
 
+The physical design flow was analyzed using post-route Innovus reports covering
+timing, area, power, clock quality, congestion, density, parasitics, and
+timing coverage.
+
+### Timing Reports
+
+| Report | Description | Result |
+|---|---|---:|
+| [Setup Timing](reports/timing/setup.rpt) | Setup timing analysis | WNS = +0.002 ns |
+| [Hold Timing](reports/timing/hold.rpt) | Hold timing analysis | WNS = +0.002 ns |
+| [Timing Summary](reports/timing/timing_summary.rpt) | Overall timing summary | TNS = 0 |
+| [Unconstrained Timing](reports/timing/unconstrained_paths.rpt) | Unconstrained path analysis | Reviewed |
+| [Timing Coverage](reports/timing/timing_coverage.rpt) | Analysis coverage | Reviewed |
+
+### Clock Reports
+
+| Report | Description |
+|---|---|
+| [Clock Latency](reports/clock/clock_latency.rpt) | Launch/capture clock latency |
+| [Clock Skew](reports/clock/clock_skew.rpt) | Clock skew analysis |
+| [Clock Jitter](reports/clock/clock_jitter.rpt) | Clock jitter analysis |
+| [Inter-Clock Skew](reports/clock/interclock_skew.rpt) | vclk1 → vclk2 relationship |
+
+### Power Reports
+
+| Report | Description | Result |
+|---|---|---:|
+| [Power Report](reports/power/power.rpt) | Internal, switching and leakage power | 84.057 |
+| [Leakage Report](reports/power/leakage.rpt) | Leakage power breakdown | 0.004631 |
+
+### Physical Reports
+
+| Report | Description |
+|---|---|
+| [Area Report](reports/area/area.rpt) | Cell and hierarchical area |
+| [Congestion Report](reports/routing/congestion.rpt) | Routing congestion |
+| [Density Report](reports/placement/density.rpt) | Placement density |
+| [Parasitics Report](reports/parasitics/annotated_parasitics.rpt) | RC parasitic annotation |
+| [Fanout Report](reports/placement/fanout.rpt) | Fanout / DRV analysis |
+
+------------------------------------------------------------------------
 # 40. Stage-Wise Implementation Summary
 
   ----------------------------------------------------------------------------
