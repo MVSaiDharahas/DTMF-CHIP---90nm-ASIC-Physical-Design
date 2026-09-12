@@ -1117,7 +1117,7 @@ Placement
      ↓
 Pre-CTS Optimization
      ↓
-CTS
+    CTS
      ↓
 Routing
      ↓
